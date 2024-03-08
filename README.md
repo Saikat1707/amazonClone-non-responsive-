@@ -1,0 +1,1 @@
+# amazonClone-non-responsive-
