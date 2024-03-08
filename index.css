@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.navbar{
+    
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav_logo{
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    
+
+
+
+    }
+
+    .logo img {
+         height: 40px; 
+         width: auto; 
+         margin-top: 2px;
+    }
+    /*.border:hover{
+        border: 2px solid white;
+        
+    }*/
+    .nav_address{
+        height: 50px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #cccccc;
+    }
+    .icon{
+        height: 22px;
+        width: 60px;
+        display: flex;
+        color: #ffffff;
+        font-size: 1.2rem;
+    }
+    .nav_search{
+        height: 40px;
+        width: 500px;
+        background-color: white;
+        display: flex;
+        border: 2px solid transparent;
+    }
+    .all{
+        height: 100%;
+        width: 50px;
+        background-color: #e8e4e4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    .search_box input[type="search"]{
+        height: 100%;
+        width: 390px;
+        padding: 7px 10px 10px 3px; 
+        outline: none;
+        border: none;
+    }
+    .search_logo{
+        height: 100%;
+        width: 60px;
+        background-color: rgb(242, 210, 30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #0f1111;
+        font-size: 1.3rem;
+    }
+    .search_box input[type="search"]::placeholder {
+    
+        font-size: 1.1rem; 
+      }
+      .nav_search select {
+        height: 100%;
+        width: 100%;
+        background-color: #e8e4e4;
+        font-size: 1.1rem;
+        outline: none;
+        border: none;
+      }
+      .nav_search:hover{
+        border: 2px solid orange;
+      }
+      .location{
+            height: 40px;
+            width: 70px;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            border: 2px solid transparent;
+      }
+      .loco_icon{
+        height: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .location select {
+        height: 100%;
+        width: 100%;
+        background-color:transparent;
+        font-size: 1.1rem;
+        font-weight:200px;
+        color: white;
+        outline: none;
+        border: none;
+        
+      }
+      .acccount{
+        height: 45px;
+        width: 170px;
+        border: 2px solid transparent;
+        
+        
+      }
+      .account2{
+        height: 45px;
+        width: 160px;
+        margin-left: 5px;
+      }
+      .hello{
+        color: white;
+      }
+      .list{
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 600;
+        
+      }
+      .account select {
+        
+        background-color:transparent;
+        color: white;
+        outline: none;
+        border: none;
+        
+        
+      }
+      .returns{
+        height: 40px;
+        width: 100px;
+        border: 2px transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .ret{
+        color: white;
+      }
+      .order{
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 600;
+        
+      }
+      .cart{
+        height: 45px;
+        width: 100px;
+        display: flex;
+        
+        align-items: center;
+        border: 2px solid transparent;
+        
+      }
+      .cart_icon{
+          color: white;
+          height: 40px;
+          font-size: 2.1rem;
+          margin-top: 5px;
+      }
+      .cart p{
+        font-size:1.3rem;
+        margin-top: 8px;
+        font-weight: 600;
+        margin-right: 12px;
+      }
+      .border:hover{
+          height: 50px;
+          border: 2px solid white;
+      }
+      .head{
+        height: 40px;
+        width: 100%;
+        background-color: #242f34;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .head_all{
+        height: 30px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .blank{
+        height: 40px;
+        width: 450px;
+      }
+      .head a{
+        text-decoration: none;
+        color: white;
+        
+      }
+      .head a:hover{
+        border-bottom: 3px solid white;
+      }
+      .hero{
+        height: 300px;
+        width: 100%;
+        background-color: #0f1111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .hero_images{
+        width: 100%;
+        height: 100%;
+        background: url("heroIMG1.jpg");
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: last baseline;
+        
+      }
+      .heromsg a{
+        text-decoration: none;
+      }
+      .heromsg {
+        background-color: white;
+        height: 35px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 14px;
+
+      }
+      .heromsg a{
+        text-decoration: none;
+        color:  rgb(91, 215, 219);
+      }
+      .middle{
+        width: 100%;
+        height: 1000px;
+        border: 2px solid black;
+      }
+      .box{
+        height:420px;
+        width: 23%;
+        background-color: white;
+        box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.3);
+        padding: 10px 10px;
+      }
+      .shopsection{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 900px;
+        background-color: rgb(137, 46, 46);
+      }
+      
+      .boxcontent{
+          margin: 10px 10px;
+          height: 400px;
+          width: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+
+      }
+      .boximg{
+        height: 300px;
+        width: auto;
+      }
+
+      .boximg img{
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+      }
+      .boximg img:hover{
+        transform: scale(1.05);
+        transition: 0.5s ease-in-out;
+      }
+      .boxcontent a{
+        text-decoration: none;
+        color: rgb(91, 215, 219);
+      }
+      .boxcontent p{
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: black;
+      }
+      .back-to-top{
+        height: 50px;
+        width: 100%;
+        background-color: #242f34;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+      }
+      .foot{
+        height: 300px;
+        width: 100%;
+        background-color: #232f3e;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .footer p{
+        font-size: 1rem;
+        font-weight: 700;
+        color: white;
+      }
+      .footer{
+        margin-top:40px ;
+        display: flex;
+        flex-direction: column;
+
+      }
+      .footer a{
+          text-decoration: none;
+          color: #cccccc;
+          margin-top: 10px;
+          font-size: 13px;
+      }
+      .footerimg{
+        height: 400px;
+        width: 100%;
+        background-image: url("Screenshot\ 2023-12-24\ 144100.png");
+        background-size: 100% 100%;
+      }
+      .foot a:hover{
+        color: white;
+      }
